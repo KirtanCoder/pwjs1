@@ -19,7 +19,39 @@ console.log(bam1)
 
 // console.log( 5 + null) -->  5
 
-let c = null
+// console.log()  --->  not defined
 
-// console.log(d)  --->  not defined
+const Name  = "kirtan"
 
+const name1 = 'kumar'
+
+console.log(Name + ' ' + name1)
+
+console.log(`kirtan ${Name} kumar ${name1}`)
+
+const username = String('kirtan')
+
+console.log(username.length)
+
+console.log(username.charAt(0))
+
+console.log(username.substring(0,4))
+
+let email = "kirtan@.com"
+
+console.log(email.trim())
+
+//trim
+
+let emailTwo = "hc@pw"
+
+console.log(emailTwo.replace('hc', 'kirtans'))
+console.log(username.includes('kirtan'))
+
+
+//convert lowercase to uppercase
+
+let user =" kirtan.com"
+let user2 ="ayush.com"
+
+console.log(user.toUpperCase())

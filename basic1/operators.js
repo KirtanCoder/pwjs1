@@ -22,3 +22,4 @@ let pw =3
 let pwskills ="3"
 
 console.log(pw == pwskills)
+

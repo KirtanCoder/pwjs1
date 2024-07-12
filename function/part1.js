@@ -44,9 +44,9 @@ function addnum1() {
     let result= 0;
     for(let i=0;i<arguments.length;i++) {
         result += arguments[i];
-
+    }
         return result;
-}
+
 }
 
 console.log(addnum1(9,1,2));

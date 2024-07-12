@@ -27,7 +27,7 @@
 
 // console.log(Name + ' ' + name1)
 
-// console.log(`kirtan ${Name} kumar ${name1}`)
+console.log(`kirtan ${Name} kumar ${name1}`)
 
 // const username = String('kirtan')
 

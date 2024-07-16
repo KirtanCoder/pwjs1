@@ -54,3 +54,7 @@ app. listen(config.PORT, async startServer() => {
 //-> sometimes our fucntion might not complete immediately and complete in future
 
 //in these case when the execution of function complete in future , what should we do can be controlled by callback
+
+// some inbuilt function
+//math.sqrt , foreach , map etc
+

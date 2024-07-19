@@ -17,3 +17,25 @@
 // how to stop auto global auto creation
 
 "use strict"; //This enables the scrict mode
+
+//nOTE ---> THIS WAY OF JS TO DO RESOLUTION , AHEAD OF TIME/EXECUTION IS CALLED AS LEXICAL SCOPING-->resolving variable scope before execution,is called lexical scoping
+
+//Dynamic Scoping---> during runtime we do scope resolution.JS doesnot support it,, Bash support it.
+
+//Block scoping---->  { pair of curly braces creates a new block except object creation }
+//
+
+//what is block scope?
+//-----> 
+
+//Temporal Dead Zone --> It is a term used to describe the state whre variables are un-reachable
+ // when we describe variable way let or const 
+
+ function fun() {
+    console.log(x);  //TDZ for let and const only
+    let x=4;
+    console.log(x);
+
+ }
+
+ fun();

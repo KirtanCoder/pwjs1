@@ -20,25 +20,5 @@ printf("3.Balance\n");
 printf("4.Exit");
 scanf("%d",&n);
 
-if(n==1) {
-    int amount;
-    printf("Enter amount ........\n");
-    scanf("%d",&amount);
-    money=money-amount;
-    printf("Your Current Balance is %d",money);
-}
-if(n==2) {
-    int amount;
-    printf("Enter amount to add.....\n");
-    scanf("%d",&amount);
 
-    money = money+amount;
-    printf("Your current balance is %d",money);
-}
-
-if(n==3) {
-    printf("Your current balance is %d",money);
-}
-
-return 0;
-}
+switch(n) {
